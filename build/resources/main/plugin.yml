@@ -1,0 +1,11 @@
+name: SqlTest
+version: '1.0-SNAPSHOT'
+main: org.cubicdev.sqlTest.SqlTest
+api-version: '1.21'
+commands:
+  "login":
+    description: "Logeate"
+    usage: "/login <pass>"
+  "register":
+    description: "Registrate"
+    usage: "/register <pass> <repeat_pass>"
